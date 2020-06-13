@@ -1,1 +1,1 @@
-# Intercative-GUI-for-ML
+# Interactive-GUI-for-ML

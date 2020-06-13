@@ -1,0 +1,103 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: rgba(204, 204, 204, 0.43);
+}
+.shadow
+{
+    border-radius: 65px;
+background: #ffffff;
+box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.49),
+             -5px -5px 10px #ffffff;
+}
+.container
+{
+    min-width: 90%;
+    margin: auto;
+}
+.power
+{
+    width: 40%;
+    background: rgba(0, 0, 0, 0.04);
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.44),
+             -5px -5px 10px rgba(255, 255, 255, 0.51);
+}
+.main
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(204, 204, 204, 0.43);
+}
+.content
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.reg,.clas,.load,.linear,.logi
+{
+    margin: 20px;
+    padding: 20px;
+    background: rgba(204, 204, 204, 0.43);
+    text-align: center;
+    cursor: pointer;
+}
+.back
+{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 252, 252, 0.71);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.linear
+{
+    margin-top: 50px;
+}
+.modal h3
+{
+    float: left;
+    margin: 10px;
+    font-size: 20px;
+}
+.modal h4
+{
+    float: right;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.modal
+{
+    position: absolute;
+    top: 50%;
+    z-index: 100;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:50%;
+    margin: auto;
+    border: 2px solid #808080;
+    border-radius: 20px;
+    background: #75d270;
+}
+.modal a
+{
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}

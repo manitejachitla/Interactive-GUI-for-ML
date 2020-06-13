@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <script type="text/javascript" src="./eel.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+    <meta charset="UTF-8">
+    <title>Hello Desktop</title>
+</head>
+<body>
+<div class="container">
+    <div class="main shadow">
+        <div class="power">
+            <h3>Powered by</h3>
+            <h2>TENSORFLOW</h2>
+        </div>
+        <div class="design">
+            <h2>Interactive design for ML</h2>
+        </div>
+    </div>
+    <div class="content">
+        <div class="reg shadow" onclick="handle_modal(0)">
+        <h2> Regression</h2>
+    </div>
+    <div class="clas shadow" onclick="handle_modal(1)">
+        <h2> Classification</h2>
+    </div>
+    <div class="load shadow">
+        <h2>Load Trained model</h2>
+    </div>
+        <div class="load shadow" onclick="handle_modal(2)">
+        <h2>Custom Nets</h2>
+        </div>
+    </div>
+    <div class="back">
+         <div class="modal">
+            <h3>Select Regression</h3>
+            <h4 onclick="close_modal(0)">close</h4>
+        <div class="linear shadow">
+            <a href="./linear.html">Linear Regression</a>
+        </div>
+        <div class="logi shadow">
+        <a href="./logistic.html">Logistic regression</a>
+        </div>
+    </div>
+    </div>
+    <div class="back">
+         <div class="modal">
+            <h3>Classification</h3>
+            <h4 onclick="close_modal(1)">close</h4>
+        <div class="linear shadow">
+            <a href="./folder.html">From folder on Local machine</a>
+        </div>
+        <div class="logi shadow">
+        <a href="./tf_data.html">Inbuilt datasets in Tensorflow</a>
+        </div>
+             <div class="logi shadow">
+            <a href="./webcam.html">Train data through webcam</a>
+            </div>
+             <div class="logi shadow">
+            <a href="./numerical.html">From numerical(CSV,TXT,XSL)</a>
+            </div>
+    </div>
+    </div>
+    <div class="back">
+         <div class="modal">
+            <h3>Select Regression</h3>
+            <h4 onclick="close_modal(2)">close</h4>
+        <div class="linear shadow">
+            <a href="./train.html">Train data in App</a>
+        </div>
+        <div class="logi shadow">
+        <a href="./download.html">Download code</a>
+        </div>
+    </div>
+    </div>
+</div>
+</body>
+</html>
